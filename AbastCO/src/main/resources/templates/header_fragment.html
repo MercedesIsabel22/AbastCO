@@ -1,0 +1,85 @@
+<!--<header>
+
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color: #ff8400;">
+        <div class="container-fluid">
+            <a class="navbar-brand" th:href="@{listar_Ctrl_Reposicion}">
+                <img src="/imagenes/logo_nav.png" alt="Logo" style="width: 40px; height: auto; margin-right: 10px;" />
+                Abast.Co
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" th:href="@{listar_Ctrl_Reposicion}">Gestion de Reposiciones</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" th:href="@{comprasProductos}">Compras</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" th:href="@{ventaProductos}">Ventas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" th:href="@{crud_Clientes?page=0&size=10}">Clientes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" th:href="@{crud_Proveedores}">Proveedores</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" th:href="@{crud_Productos}">Productos</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <button class="btn btn-dark" type="button" th:href="@{autentificar}">
+                        Cerrar sesión
+                    </button>
+                </form>
+            </div>
+        </div>
+    </nav>
+</header>-->
+
+<header>
+    <!-- Menú - Barra superior -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color: #ff8400;">
+        <div class="container-fluid">
+            <a class="navbar-brand" th:href="@{listar_Ctrl_Reposicion}" style="font-family: 'Playfair Display', serif;">
+                <img src="/imagenes/logo_nav.png" alt="Logo" style="width: 40px; height: auto; margin-right: 10px;" />
+                Abast.Co
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" th:href="@{listar_Ctrl_Reposicion}" style="font-family: 'Playfair Display', serif;">Gestion de Reposiciones</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" th:href="@{comprasProductos}" style="font-family: 'Playfair Display', serif;">Compras</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" th:href="@{ventaProductos}" style="font-family: 'Playfair Display', serif;">Ventas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" th:href="@{crud_Clientes?page=0&size=10}" style="font-family: 'Playfair Display', serif;">Clientes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" th:href="@{crud_Proveedores}" style="font-family: 'Playfair Display', serif;">Proveedores</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" th:href="@{crud_Productos}" style="font-family: 'Playfair Display', serif;">Productos</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <button class="btn btn-dark" type="button" th:href="@{autentificar}">
+                        <a class="nav-link" th:href="@{autentificar}">Cerrar sesión</a>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </nav>
+</header>
